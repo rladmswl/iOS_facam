@@ -81,5 +81,18 @@ print("Msg: \(greetingMessage)")
 let greetingMessage: String = isJason ? "Hello Jason" : "Hello Somebody" // 삼합 연산자. 조건?"":"" 조건이 맞으면 앞, 틀리면 뒤.
 print("Msg: \(greetingMessage)")
 
-//
 
+
+// scope
+
+var hours = 50
+let payPerHour = 10000
+var salary = 0
+
+if hours > 40 {
+    let extranHours = hours - 40
+    salary += extranHours * payPerHour * 2
+    hours -= extranHours
+}
+
+salary += hours * payPerHour
