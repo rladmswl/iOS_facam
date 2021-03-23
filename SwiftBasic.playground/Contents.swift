@@ -23,3 +23,4 @@ let (x3, y3) = coordinatesNamed // 좌표값 한번에 가져오기
 x3
 y3
 
+
