@@ -77,7 +77,3 @@ if isJason {
 }
 print("Msg: \(greetingMessage)")
 */
-
-let greetingMessage: String = isJason ? "Hello Jason" : "Hello Somebody" // 삼합 연산자. 조건?"":"" 조건이 맞으면 앞, 틀리면 뒤.
-print("Msg: \(greetingMessage)")
-
