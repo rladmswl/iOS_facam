@@ -61,4 +61,23 @@ if isTwoNameSame {
     print("이름이 다르다")
 }
 
-//
+
+let isJason = name2 == "Jason"
+let isMale = false
+
+let jasonAndMale = isJason && isMale
+let jasonOrMale = isJason || isMale
+
+/*
+let greetingMessage: String
+if isJason {
+    greetingMessage = "Hello Jason"
+} else {
+    greetingMessage = "Hello Somebody"
+}
+print("Msg: \(greetingMessage)")
+*/
+
+let greetingMessage: String = isJason ? "Hello Jason" : "Hello Somebody" // 삼합 연산자. 조건?"":"" 조건이 맞으면 앞, 틀리면 뒤.
+print("Msg: \(greetingMessage)")
+
