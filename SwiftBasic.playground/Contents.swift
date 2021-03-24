@@ -3,7 +3,7 @@ import UIKit
 var str = "Hello, playground"
 
 let value = arc4random_uniform(100)
-print("\(value)")
+//print("\(value)")
 
 
 
@@ -79,7 +79,7 @@ print("Msg: \(greetingMessage)")
 */
 
 let greetingMessage: String = isJason ? "Hello Jason" : "Hello Somebody" // 삼합 연산자. 조건?"":"" 조건이 맞으면 앞, 틀리면 뒤.
-print("Msg: \(greetingMessage)")
+//print("Msg: \(greetingMessage)")
 
 
 
@@ -96,3 +96,4 @@ if hours > 40 {
 }
 
 salary += hours * payPerHour
+
